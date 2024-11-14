@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="PriceModel" representedClassName="PriceModel" syncable="YES" codeGenerationType="class">
+        <attribute name="prCat" optional="YES" attributeType="String"/>
+        <attribute name="prName" optional="YES" attributeType="String"/>
+        <attribute name="prPrice" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SchedModel" representedClassName="SchedModel" syncable="YES" codeGenerationType="class">
+        <attribute name="scDay" optional="YES" attributeType="String"/>
+        <attribute name="scFinTime" optional="YES" attributeType="String"/>
+        <attribute name="scName" optional="YES" attributeType="String"/>
+        <attribute name="scStTime" optional="YES" attributeType="String"/>
+        <attribute name="scTeach" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StaffModel" representedClassName="StaffModel" syncable="YES" codeGenerationType="class">
+        <attribute name="stName" optional="YES" attributeType="String"/>
+        <attribute name="stPhoto" optional="YES" attributeType="String"/>
+        <attribute name="stProf" optional="YES" attributeType="String"/>
+        <attribute name="stSal" optional="YES" attributeType="String"/>
+        <attribute name="stTask" optional="YES" attributeType="String"/>
+        <attribute name="stType" optional="YES" attributeType="String"/>
+    </entity>
+</model>
